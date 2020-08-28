@@ -37,3 +37,7 @@ When making pull requests to the repository, make sure to follow these guideline
 ### Features
 
 Before creating pull requests for new features, first file a GitHub Issue describing the reasoning and motivation for the feature. This gives maintainers and the community the opportunity to provide feedback on your idea before implementing it.
+
+## License
+
+By contributing to Supabase, you agree that your contributions will be licensed under its license specified in the repository you are contributing to.
