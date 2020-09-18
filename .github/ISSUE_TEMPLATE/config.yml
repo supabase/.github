@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Ask a question
+    url: https://github.com/supabase/supabase/discussions/category_choices
+    about: Ask questions and discuss with other community members.
   - name: Want to work with us?
     url: https://supabase.io/humans.txt
     about: Want to work with us? Get in touch!
