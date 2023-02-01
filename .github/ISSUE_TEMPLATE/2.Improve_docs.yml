@@ -1,0 +1,40 @@
+name: Improve documentation
+description: Suggest an improvement to our documentation
+labels: ['documentation', 'triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this documentation feedback!
+
+  - type: input
+    id: link
+    attributes:
+      label: Link to page
+      description: Add a link to the page which needs improvement (if relevant)
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the problem
+      description: Is the documentation missing? Or is it confusing? Why is it confusing?
+    validations:
+      required: true
+
+  - type: input
+    id: improvement
+    attributes:
+      label: Describe the improvement
+      description: A clear and concise description of the improvement.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots that help clarify your question.
+    validations:
+      required: false
