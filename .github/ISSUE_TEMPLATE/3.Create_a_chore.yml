@@ -7,11 +7,11 @@ body:
       value: |
         Thanks for taking the time to fill out this chore request!
 
-  - type: input
+  - type: textarea
     id: description
     attributes:
       label: Describe the chore
-      description: A clear and concise description of what the chore is.
+      description: A clear description of what the chore is.
     validations:
       required: true
 
