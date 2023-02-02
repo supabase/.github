@@ -1,0 +1,96 @@
+name: Bug Report
+description: Create a bug report for one of the supabase repos or examples.
+labels: ['bug', 'triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear description of what the bug is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior, please provide code snippets or a repository
+      placeholder: |
+        1. Go to '…'
+        2. Click on '…'
+        3. Scroll down to '…'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: A clear description of what you expected to happen.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: system-os
+    attributes:
+      label: 'System information: OS'
+      description: Which operating system are you using?
+      options:
+        - Linux
+        - Mac OS
+        - Windows
+    validations:
+      required: true
+
+  - type: dropdown
+    id: system-browser
+    attributes:
+      label: What browser are you seeing the problem on? (if applies)
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Other
+    validations:
+      required: false
+
+  - type: input
+    id: supabase-js-version
+    attributes:
+      label: Supabase JS version
+      description: What version of supabase-js are you using?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: system-runtime
+    attributes:
+      label: What runtime are you seeing the problem on?
+      options:
+        - Node
+        - Deno
+        - Bun
+    validations:
+      required: true
+
+  - type: input
+    id: runtime-version
+    attributes:
+      label: Runtime version
+      description: What version of your runtime are you using?
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+    validations:
+      required: false
