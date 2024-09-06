@@ -4,7 +4,7 @@ contact_links:
     url: https://github.com/orgs/supabase/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop
     about: Request a new feature or example.
   - name: Ask a question
-    url: https://github.com/supabase/supabase/discussions/category_choices
+    url: https://github.com/orgs/supabase/discussions/new/choose
     about: Ask questions and discuss with other community members.
   - name: Want to work with us?
     url: https://supabase.io/humans.txt
