@@ -33,7 +33,7 @@ When making pull requests to the repository, make sure to follow these guideline
 - In your PR's description, link to any related issues or pull requests to give reviewers the full context of your change.
 - For commit messages, follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format.
   - For example, if you update documentation for a specific extension, your commit message might be: `docs(extension-name): updated installation documentation`.
-  - For breaking changes, remember to include an exclamation mark after the tag, for example: `feat(extension-name)!: changed endpoint format`
+  - For breaking changes, remember to include an exclamation mark after the tag, for example: `feat(extension-name)!: changed endpoint format`.
 
 ### Features
 
